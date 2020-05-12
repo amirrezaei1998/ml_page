@@ -1,0 +1,73 @@
+* {
+    font-family: "B Nazanin", serif;
+}
+body {
+    background-color: #161B21;
+    color: #F4A950;
+    padding: 150px;
+}
+/*///////////////////HEADER/////////////////////*/
+header {
+    max-width: 100%;
+    background-color: black;
+    height: 500px;
+}
+.header_right{
+    width: 30%;
+    float: right;
+}
+.header_center{
+    width: 40%;
+    float: right;
+}
+.header_left{
+    width: 30%;
+    float: right;
+}
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 30px;
+}
+@media screen and (max-width:600px) {
+  .header_right,.header_center,.header_left {
+    width: 100%;
+    height: 100%;
+  }
+}
+#profile_picture {
+    max-width: 70%;
+    max-height: 70%;
+    margin: 10px;
+    border: #F4A950 solid 10px;
+    border-radius: 90%;
+    display: block;
+}
+img.logo {
+    width: 50px;
+    height: 50px;
+}
+/*///////////////////HEADER/////////////////////*/
+/*////////////////////NAV///////////////////////*/
+nav {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+/*////////////////////NAV///////////////////////*/
+/*/////////////////Section//////////////////////*/
+.P1 {
+    text-indent: 50px;
+}

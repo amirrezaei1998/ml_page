@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+    <form>
+        <label for="fname"> First Name</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname"> Last Name </label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="username"> User Name</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password"> Password </label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="radio" id="male" name="male" value="male">
+        <label for="male"> Male </label><br>
+        <input type="radio" id="female" name="female" value="female">
+        <label for="female"> Female </label><br>
+        <input type="radio" id="other" name="other" value="other">
+        <label for="other"> Other </label><br>
+        <input type="checkbox" id="house" name="house" value="house">
+        <label for="house"> House </label><br>
+        <input type="checkbox" id="car" name="car" value="car">
+        <label for="car"> Car </label><br>
+        <input type="checkbox" id="job" name="job" value="job">
+        <label for="job"> Job </label><br>
+        <label for="car_color"> color </label>
+        <input type="color" id="car_color" name="car_color"><br>
+        <label for="birthday"> Birthday </label>
+        <input type="date" id="birthday" name="birthday"  min="1998-07-04" max="2020-07-04"><br>
+        <label for="now"> Now </label>
+        <input type="datetime-local" id="now" name="now"><br>
+        <label for="email"> Email : </label>
+        <input type="email" id="email" name="email"><br>
+        <label for="file"> Attach File : </label>
+        <input type="file" id="file" name="file"><br>
+        <label for="month"> Month : </label>
+        <input type="month" id="month" name="month"><br>
+        <label for="age"> Number : </label>
+        <input type="number" id="age" name="age" min="10" max="20" step="2" value="16"><br>
+        <label for="vol"> Volume </label>
+        <input type="range" id="vol" name="volume" min="100" max="200" step="5" value="120"><br>
+        <label for="gsearch"> Google Search : </label>
+        <input type="search" id="gsearch" name="search"><br>
+        <label for="phone"> Phone Number : </label>
+        <input type="tel" id="phone" name="phone" placeholder="0123-4567890" pattern="[0][9][1][2]-[0-9]{7}" required><br>
+        <label for="start"> Start : </label>
+        <input type="time" id="start" name="start"><br>
+        <label for="homepage"> Homepage </label>
+        <input type="url" id="homepage" name="homepage"><br>
+        <label for="pregnant"> Pregnant : </label>
+        <input type="week" id="pregnant" name="pregnant"><br>
+        <input type="submit" value="submit">
+        <input type="reset">
+        <input type="button" onclick="alert('Hello')" value="Click">
+    </form>
+</body>
+</html>
